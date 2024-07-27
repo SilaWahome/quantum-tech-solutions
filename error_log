@@ -1,0 +1,594 @@
+[07-Jun-2024 21:08:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[07-Jun-2024 21:10:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[07-Jun-2024 21:10:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[07-Jun-2024 21:10:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[08-Jun-2024 16:09:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[08-Jun-2024 16:10:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[08-Jun-2024 19:26:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[11-Jun-2024 02:50:16 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wpn9_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->is_enqueued, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[11-Jun-2024 02:50:16 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wpn9_options WHERE option_name = 'woocommerce_hpos_legacy_data_cleanup_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->is_flag_set, get_option
+[12-Jun-2024 10:07:07 UTC] WordPress database error Duplicate entry 'f02a6b41051307804b6f481504e07342' for key 'wpn9_litespeed_avatar.md5' for query INSERT INTO `wpn9_litespeed_avatar` SET url='https://secure.gravatar.com/avatar/d1918ebbdced6190b7774830c26d8c0f?s=96&d=mm&r=g', md5='f02a6b41051307804b6f481504e07342', dateline=1718186827 made by do_action_ref_array('litespeed_task_avatar'), WP_Hook->do_action, WP_Hook->apply_filters, LiteSpeed\Avatar::cron, LiteSpeed\Avatar->_generate
+[12-Jun-2024 15:31:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[12-Jun-2024 15:32:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[12-Jun-2024 15:39:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[12-Jun-2024 15:41:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[12-Jun-2024 15:42:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[13-Jun-2024 10:27:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[13-Jun-2024 13:43:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[14-Jun-2024 06:30:23 UTC] Cron reschedule event error for hook: litespeed_task_ucss, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[14-Jun-2024 13:34:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[15-Jun-2024 01:25:08 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wpn9_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->is_enqueued, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[15-Jun-2024 01:25:08 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wpn9_options WHERE option_name = 'woocommerce_hpos_legacy_data_cleanup_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->is_flag_set, get_option
+[15-Jun-2024 09:29:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[16-Jun-2024 11:12:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[17-Jun-2024 08:36:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[17-Jun-2024 08:37:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[17-Jun-2024 08:37:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[17-Jun-2024 08:37:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[17-Jun-2024 08:37:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[17-Jun-2024 08:37:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[17-Jun-2024 08:38:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[17-Jun-2024 08:39:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[17-Jun-2024 08:39:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[19-Jun-2024 13:38:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
+[19-Jun-2024 13:41:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_title() on null in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php:28
+Stack trace:
+#0 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(364): wc_get_template('loop/add-to-com...', Array, '', '/home/quantumte...')
+#2 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/shortcodes.php(96): wc_get_template_html('loop/add-to-com...', Array, '', '/home/quantumte...')
+#3 /home/quantumtech/public_html/wp-includes/shortcodes.php(433): WCBoost\ProductsCompare\Shortcodes::compare_button(Array, '', 'wcboost_compare...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/quantumtech/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wcboos...', 'do_shortcode_ta...', '[wcboost_compar...')
+#6 /home/quantumtech/public_html/wp-content/plugins/wcboost-products-compare/includes/ajax-handler.php(95): do_shortcode('[wcboost_compar...')
+#7 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WCBoost\ProductsCompare\Ajax_Handler::get_compare_fragments('')
+#8 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/quantumtech/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_get_com...')
+#11 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(324): WC_AJAX::do_wc_ajax('')
+#12 /home/quantumtech/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#13 /home/quantumtech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/quantumtech/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#15 /home/quantumtech/public_html/wp-blog-header.php(19): require_once('/home/quantumte...')
+#16 /home/quantumtech/public_html/index.php(17): require('/home/quantumte...')
+#17 {main}
+  thrown in /home/quantumtech/public_html/wp-content/themes/martfury/woocommerce/loop/add-to-compare.php on line 28
